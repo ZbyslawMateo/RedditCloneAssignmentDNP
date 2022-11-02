@@ -36,4 +36,12 @@ public class UserFileDao:IUserDao
         );
         return Task.FromResult(existing);
     }
+
+    public Task<User?> GetByIdAsync(int id)
+    {
+        User? existing = context.Users.FirstOrDefault(u =>
+            u.Id == id
+        );
+        return Task.FromResult(existing);
+    }
 }

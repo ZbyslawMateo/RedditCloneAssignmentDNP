@@ -21,5 +21,26 @@
       "Password": "XDXDXD"
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Mateo",
+        "Password": null
+      },
+      "Title": "What is wrong with Twitter",
+      "Body": "nothing!"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Mateo3",
+        "Password": ""
+      },
+      "Title": "a",
+      "Body": "a"
+    }
+  ]
 }
