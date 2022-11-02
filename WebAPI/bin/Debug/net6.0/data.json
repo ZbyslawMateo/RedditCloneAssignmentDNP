@@ -1,0 +1,20 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Mateo",
+      "Password": null
+    },
+    {
+      "Id": 2,
+      "UserName": "Mateo2",
+      "Password": "supertajne"
+    },
+    {
+      "Id": 3,
+      "UserName": "Mateo3",
+      "Password": ""
+    }
+  ],
+  "Posts": []
+}

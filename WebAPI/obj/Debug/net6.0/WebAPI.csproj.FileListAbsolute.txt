@@ -25,3 +25,10 @@ C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\obj\Debug\net6.0\re
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Application.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\FileData.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\SharedDomain.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Application.pdb
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\FileData.pdb
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\SharedDomain.pdb
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\data.json
