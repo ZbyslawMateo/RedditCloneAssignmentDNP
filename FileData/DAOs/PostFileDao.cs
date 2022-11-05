@@ -1,5 +1,6 @@
 using Application.DaoInterfaces;
 using SharedDomain;
+using SharedDomain.DTOs;
 
 namespace FileData.DAOs;
 
@@ -33,5 +34,24 @@ public class PostFileDao : IPostDao
     {
         Post? existing = context.Posts.FirstOrDefault(t => t.Id == id);
         return Task.FromResult(existing);
+    }
+
+    public Task<IEnumerable<Post>> GetAsync(SearchPostDto searchParameters)
+    {
+        IEnumerable<Post> result = context.Posts.AsEnumerable();
+
+        if (!string.IsNullOrEmpty(searchParameters.AuthorName))
+        {
+            result = context.Posts.Where(todo =>
+                todo.Owner.UserName.Equals(searchParameters.AuthorName, StringComparison.OrdinalIgnoreCase));
+        }
+        
+        if (!string.IsNullOrEmpty(searchParameters.TitleContains))
+        {
+            result = result.Where(t =>
+                t.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
+        }
+
+        return Task.FromResult(result);
     }
 }

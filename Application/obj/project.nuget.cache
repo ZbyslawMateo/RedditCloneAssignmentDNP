@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "b+YNdAXPk425jGGtmgrPX91UdhfawxJcvE0AyYq8ZFQmRjXb28ylqSJMGP5/u9vagEHCheBebg9OiwGN5htfDg==",
+  "dgSpecHash": "ASk8Dadmc5oJFLOvYbQ+2mqUJRhrbWO6nrB24ttVZp+sWaG1u1jbEojvGRkPpjqf4aIzPCutsoUBUyPlStT/RA==",
   "success": true,
   "projectFilePath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\IZO21\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

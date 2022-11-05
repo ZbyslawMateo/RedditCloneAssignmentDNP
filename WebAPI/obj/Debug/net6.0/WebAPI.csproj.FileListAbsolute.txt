@@ -32,3 +32,13 @@ C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Ap
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\FileData.pdb
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\SharedDomain.pdb
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\data.json
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
