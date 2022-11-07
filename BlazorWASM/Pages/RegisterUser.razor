@@ -1,7 +1,10 @@
 @page "/RegisterUser"
 @using SharedDomain.DTOs
 @using HttpClients.ClientInterfaces
+@using BlazorWASM.Services
+@using SharedDomain
 @inject IUserService userService;
+@inject IAuthService authService
 
 <div class="card">
     <h3>Register an account</h3>
@@ -13,11 +16,14 @@
         {
             <label style="color: @color">@resultMsg</label>
         }
-        
-        <br/>
-        
+
         <label>Password:</label>
+        
         <input type="password" @bind="password" @bind:event="oninput"/>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
 
     </div>
     <div class="button-row">
@@ -41,6 +47,8 @@
             password = "";
             resultMsg = "User successfully created";
             color = "green";
+            
+
         }
         catch (Exception e)
         {

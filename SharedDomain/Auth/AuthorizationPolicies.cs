@@ -5,8 +5,11 @@ namespace SharedDomain.Auth;
 
 public class AuthorizationPolicies
 {
+    
     public static void AddPolicies(IServiceCollection services)
     {
+        // Yet, I don't need those polices, but I will keep them for possible further expansion.
+        
         services.AddAuthorizationCore(options =>
         {
             options.AddPolicy("MustBeVia", a =>

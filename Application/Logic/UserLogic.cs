@@ -47,4 +47,8 @@ public class UserLogic:IUserLogic
         if (password.Length > 16)
             throw new Exception("Password must be less than 17 characters!");
     }
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
 }

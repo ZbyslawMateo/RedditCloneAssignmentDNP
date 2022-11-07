@@ -30,12 +30,16 @@ public class AuthController : ControllerBase
             new Claim(JwtRegisteredClaimNames.Sub, config["Jwt:Subject"]),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-            new Claim(ClaimTypes.Name, user.UserName),
+            new Claim(ClaimTypes.Name, user.UserName)
+            
+            // Yet, I don't need those polices, but I will keep them for possible further expansion.
+            
+            /*,
             new Claim(ClaimTypes.Role, user.Role),
             new Claim("DisplayName", user.Name),
             new Claim("Age", user.Age.ToString()),
             new Claim("Domain", user.Domain),
-            new Claim("SecurityLevel", user.SecurityLevel.ToString())
+            new Claim("SecurityLevel", user.SecurityLevel.ToString()) */
         };
         return claims.ToList();
     }
@@ -76,4 +80,5 @@ public class AuthController : ControllerBase
             return BadRequest(e.Message);
         }
     }
+
 }

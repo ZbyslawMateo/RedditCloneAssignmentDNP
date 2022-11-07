@@ -1,36 +1,33 @@
 using System.ComponentModel.DataAnnotations;
+using Application.LogicInterfaces;
+using FileData;
 using SharedDomain;
+using SharedDomain.DTOs;
 
 namespace WebAPI.Services;
 
 public class AuthServices : IAuthService
 {
-    private readonly IList<User> users = new List<User>
+    private readonly IUserLogic userLogic;
+    private List<User> users;
+
+    public AuthServices(IUserLogic userLogic)
     {
-        new User
-        {
-            Age = 36,
-            Domain = "via",
-            Name = "Troels Mortensen",
-            Password = "onetwo3FOUR",
-            Role = "Teacher",
-            UserName = "trmo",
-            SecurityLevel = 4
-        },
-        new User
-        {
-            Age = 34,
-            Domain = "gmail",
-            Name = "Jakob Rasmussen",
-            Password = "password",
-            Role = "Student",
-            UserName = "jknr",
-            SecurityLevel = 2
-        }
-    };
+        this.userLogic = userLogic;
+        users = new List<User>();
+    }
+
+    public async void LoadUsersIntoList()
+    {
+        SearchUserParametersDto dto = new SearchUserParametersDto(null);
+        IEnumerable<User> tempUsers = await userLogic.GetAsync(dto);
+        users = tempUsers.ToList();
+    }
+    
 
     public Task<User> ValidateUser(string username, string password)
     {
+        LoadUsersIntoList();
         User? existingUser = users.FirstOrDefault(u => 
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
         
@@ -47,8 +44,12 @@ public class AuthServices : IAuthService
         return Task.FromResult(existingUser);
     }
 
+    //Not used now
+    
+    /*
     public Task RegisterUser(User user)
     {
+        LoadUsersIntoList();
 
         if (string.IsNullOrEmpty(user.UserName))
         {
@@ -67,4 +68,5 @@ public class AuthServices : IAuthService
         
         return Task.CompletedTask;
     }
+    */
 }

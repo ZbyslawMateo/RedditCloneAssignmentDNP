@@ -1,12 +1,11 @@
 using Application.LogicInterfaces;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SharedDomain;
 using SharedDomain.DTOs;
 
 namespace WebAPI.Controllers;
 
-[Authorize]
+
 [ApiController]
 [Route("[controller]")]
 public class UsersController : ControllerBase
@@ -24,6 +23,21 @@ public class UsersController : ControllerBase
         {
             User user = await userLogic.CreateAsync(dto);
             return Created($"/users/{user.Id}", user);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<User>>> GetAsync([FromQuery] string? username)
+    {
+        try
+        {
+            SearchUserParametersDto parameters = new(username);
+            IEnumerable<User> users = await userLogic.GetAsync(parameters);
+            return Ok(users);
         }
         catch (Exception e)
         {
