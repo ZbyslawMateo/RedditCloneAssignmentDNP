@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Text;
 using Application.DaoInterfaces;
 using Application.Logic;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using SharedDomain.Auth;
 using WebAPI.Services;
+using IComponent = Microsoft.AspNetCore.Components.IComponent;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,6 +60,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthentication();
+
 
 app.UseHttpsRedirection();
 

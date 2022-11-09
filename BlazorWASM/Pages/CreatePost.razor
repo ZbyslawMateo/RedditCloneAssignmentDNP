@@ -1,8 +1,109 @@
 @page "/CreatePost"
+@using System.Security.Claims
+@using BlazorWASM.Services
+@using HttpClients.ClientInterfaces
+@using SharedDomain.DTOs
+@inject IPostService postService
+@inject IAuthService authService
+@inject NavigationManager navMgr
 @attribute [Authorize]
 
-<h3>CreatePost</h3>
+<div class="createPostCard">
+    <h3>Create Post</h3>
+    
+    <label>Title:</label>
+    <input name="name" type="text" class="feedback-input" placeholder="Name" @bind="postTitle"/>   
+    
+    <label>Description:</label>
+    <textarea name="text" class="feedback-input" placeholder="Comment" @bind="postDescription"></textarea>
+
+    <!--
+    <div class="form-group field">
+        <label>Title:</label>
+        <input type="text" placeholder="Can't be empty!" @bind="postTitle"/>
+    </div>
+    <br>
+    <div class="form-group field">
+        <label>Description:</label>
+        <input type="text" placeholder="Can't be empty!" @bind="postDescription"/>
+        <textarea type="text" placeholder="Can't be empty!" @bind="postDescription"
+            rows="4" cols="50"></textarea>
+    </div>
+    
+    
+    <br>
+                <label style="color: red">@msg</label>
+    -->
+    <div class="button-row">
+        @if (!string.IsNullOrEmpty(msg) && !isSucceed)
+        {
+            <div class="error-msg">
+                <i class="fa fa-times-circle"></i>
+                @msg
+            </div>
+        }
+        @if (!string.IsNullOrEmpty(goodMsg) && isSucceed)
+        {
+            <div class="success-msg">
+                <i class="fa fa-check"></i>
+                @goodMsg
+            </div>
+        }
+        <button @onclick="Create" class="acceptbtn">Create</button>
+    </div>
+</div>
 
 @code {
+    private string postTitle = "";
+    private string postDescription = "";
+    private string authorUsername = "";
+    string userId = "";
+    private string color = "";
+    private bool isSucceed = false;
     
+    
+    private string msg = "";
+    private string goodMsg = "";
+    
+
+    private async Task Create()
+    {
+        msg = "";
+        goodMsg = "";
+        
+        if (string.IsNullOrEmpty(postTitle))
+        {
+            msg = "Title cannot be empty!";
+            return;
+        }
+        if (string.IsNullOrEmpty(postDescription))
+        {
+            msg = "Description cannot be empty!";
+            return;
+        }
+        
+
+        try
+        {
+            isSucceed = false;
+            ClaimsPrincipal context = await authService.GetAuthAsync();
+            var claims = context.Identities.First().Claims.ToList();
+            string? id = claims?.FirstOrDefault(x => x.Type.Equals("Id", StringComparison.OrdinalIgnoreCase))?.Value;
+            PostCreationDto dto = new(int.Parse(id), postTitle, postDescription);
+            await postService.CreateAsync(dto);
+            isSucceed = true;
+            goodMsg = "Post successfully created";
+            
+            postTitle = "";
+            postDescription = "";
+            
+            //navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+            color = "red";
+        }
+    }
 }
