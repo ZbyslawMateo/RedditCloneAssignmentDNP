@@ -6,34 +6,19 @@
 @inject IPostService postService
 @inject IAuthService authService
 @inject NavigationManager navMgr
-@attribute [Authorize]
+@using System.Threading;
 
+<AuthorizeView>
+    <Authorized>
 <div class="createPostCard">
     <h3>Create Post</h3>
     
     <label>Title:</label>
-    <input name="name" type="text" class="feedback-input" placeholder="Name" @bind="postTitle"/>   
+    <input name="name" type="text" class="feedback-input" placeholder="Give your post a catchy title!" @bind="postTitle"/>   
     
     <label>Description:</label>
-    <textarea name="text" class="feedback-input" placeholder="Comment" @bind="postDescription"></textarea>
-
-    <!--
-    <div class="form-group field">
-        <label>Title:</label>
-        <input type="text" placeholder="Can't be empty!" @bind="postTitle"/>
-    </div>
-    <br>
-    <div class="form-group field">
-        <label>Description:</label>
-        <input type="text" placeholder="Can't be empty!" @bind="postDescription"/>
-        <textarea type="text" placeholder="Can't be empty!" @bind="postDescription"
-            rows="4" cols="50"></textarea>
-    </div>
+    <textarea name="text" class="feedback-input" placeholder="Describe your problem!" @bind="postDescription"></textarea>
     
-    
-    <br>
-                <label style="color: red">@msg</label>
-    -->
     <div class="button-row">
         @if (!string.IsNullOrEmpty(msg) && !isSucceed)
         {
@@ -49,10 +34,17 @@
                 @goodMsg
             </div>
         }
-        <button @onclick="Create" class="acceptbtn">Create</button>
+        <div class="field">
+            <button @onclick="Create" class="button-35" role="button">Create</button>
+            </div>
     </div>
 </div>
-
+</Authorized>
+    <NotAuthorized>
+        <p>You are not logged in.</p>
+        @Redirect()
+    </NotAuthorized>
+</AuthorizeView>
 @code {
     private string postTitle = "";
     private string postDescription = "";
@@ -66,6 +58,11 @@
     private string goodMsg = "";
     
 
+    private async Task Redirect()
+    {
+        navMgr.NavigateTo("/login");
+    }
+    
     private async Task Create()
     {
         msg = "";
@@ -96,8 +93,11 @@
             
             postTitle = "";
             postDescription = "";
+            var timer = new Timer(new TimerCallback(_ =>
+            {
+                navMgr.NavigateTo("/");
+            }), null, 2000, 2000);
             
-            //navMgr.NavigateTo("/");
         }
         catch (Exception e)
         {
@@ -107,3 +107,21 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

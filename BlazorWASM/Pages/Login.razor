@@ -10,11 +10,11 @@
             <h3>Please login</h3>
             <div class="field">
                 <label>User name:</label>
-                <input type="text" @bind="userName"/>
+                <input type="text" class="feedback-input" @bind="userName"/>
             </div>
             <div class="field">
                 <label style="text-align: center">Password:</label>
-                <input type="password" @bind="password"/>
+                <input type="password" class="feedback-input" @bind="password"/>
             </div>
             @if (!string.IsNullOrEmpty(errorLabel))
             {
@@ -25,7 +25,7 @@
                 </div>
             }
             <div class="field">
-                <button class="loginbtn" @onclick="LoginAsync">Log in</button>
+                <button class="button-35" role="button" @onclick="LoginAsync">Log in</button>
             </div>
         </div>
     </NotAuthorized>

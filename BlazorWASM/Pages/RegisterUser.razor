@@ -11,7 +11,7 @@
     <div class="form-group field">
         <label>User name:</label>
         
-        <input type="text" @bind="username" @bind:event="oninput"/>
+        <input type="text" @bind="username" class="feedback-input" @bind:event="oninput"/>
         @if (!string.IsNullOrEmpty(resultMsg))
         {
             <label style="color: @color">@resultMsg</label>
@@ -19,15 +19,15 @@
 
         <label>Password:</label>
         
-        <input type="password" @bind="password" @bind:event="oninput"/>
+        <input type="password" @bind="password" class="feedback-input" @bind:event="oninput"/>
         @if (!string.IsNullOrEmpty(resultMsg))
         {
             <label style="color: @color">@resultMsg</label>
         }
 
     </div>
-    <div class="button-row">
-        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(username))" class="acceptbtn">Register</button>
+    <div class="field">
+        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(username))" class="button-35" role="button">Register</button>
     </div>
 </div>
 @code {

@@ -39,4 +39,14 @@ public class PostLogic : IPostLogic
         if (string.IsNullOrEmpty(dto.Body)) throw new Exception("Body cannot be empty.");
         // other validation stuff
     }
+    public async Task<Post> GetByIdAsync(int id)
+    {
+        Post? post = await postDao.GetByIdAsync(id);
+        if (post == null)
+        {
+            throw new Exception($"Post with id {id} not found");
+        }
+
+        return new Post(post.Owner, post.Title, post.Body);
+    }
 }

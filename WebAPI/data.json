@@ -2,63 +2,53 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Mateo",
-      "Password": null
+      "UserName": "Mateusz",
+      "Password": "password"
     },
     {
       "Id": 2,
-      "UserName": "Mateo2",
-      "Password": "supertajne"
+      "UserName": "John",
+      "Password": "password"
     },
     {
       "Id": 3,
-      "UserName": "Mateo3",
-      "Password": ""
+      "UserName": "Bob",
+      "Password": "password"
     },
     {
       "Id": 4,
-      "UserName": "Mateo5",
-      "Password": "XDXDXD"
+      "UserName": "Jake",
+      "Password": "password"
     },
     {
       "Id": 5,
-      "UserName": "Mateo4",
+      "UserName": "Amy",
       "Password": "password"
     },
     {
       "Id": 6,
-      "UserName": "aaa",
-      "Password": "aaaaaaaaaa"
+      "UserName": "Terry",
+      "Password": "password"
     },
     {
       "Id": 7,
-      "UserName": "aaaaaaaaaa",
-      "Password": "aaaaaaaaaa"
+      "UserName": "Boyle",
+      "Password": "password"
     },
     {
       "Id": 8,
-      "UserName": "Mateo51",
+      "UserName": "Rosa",
       "Password": "password"
     },
     {
       "Id": 9,
-      "UserName": "Mateo52",
+      "UserName": "Gina",
       "Password": "password"
     },
     {
       "Id": 10,
-      "UserName": "xdddddd",
-      "Password": "xdddddd"
-    },
-    {
-      "Id": 11,
-      "UserName": "Mateo69",
+      "UserName": "CapitanHolt",
       "Password": "password"
-    },
-    {
-      "Id": 12,
-      "UserName": "Olus",
-      "Password": "bardzotrudne"
     }
   ],
   "Posts": [
@@ -66,301 +56,101 @@
       "Id": 1,
       "Owner": {
         "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
+        "UserName": "Mateusz",
+        "Password": "password"
       },
-      "Title": "What is wrong with Twitter",
-      "Body": "nothing!"
+      "Title": "I love DNP",
+      "Body": "C# (pronounced see sharp)[b] is a general-purpose, high-level multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.[16]\n\nThe C# programming language was designed by Anders Hejlsberg from Microsoft in 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO/IEC (ISO/IEC 23270) in 2003. Microsoft introduced C# along with .NET Framework and Visual Studio, both of which were closed-source. At the time, Microsoft had no open-source products. Four years later, in 2004, a free and open-source project called Mono began, providing a cross-platform compiler and runtime environment for the C# programming language. A decade later, Microsoft released Visual Studio Code (code editor), Roslyn (compiler), and the unified .NET platform (software framework), all of which support C# and are free, open-source, and cross-platform. Mono also joined Microsoft but was not merged into .NET.\n\nAs of July 2022, the most recent stable version of the language is C# 10.0, which was released in 2021 in .NET 6.0.[17][18]"
     },
     {
       "Id": 2,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
+        "Id": 2,
+        "UserName": "John",
+        "Password": "password"
       },
-      "Title": "a",
-      "Body": "a"
+      "Title": "The Lego Group",
+      "Body": "Lego A/S (trade name: The Lego Group) is a Danish toy production company based in Billund, Denmark.[6] It was founded in 1932. It manufactures Lego-brand toys, consisting mostly of interlocking plastic bricks. The Lego Group has also built several amusement parks around the world, each known as Legoland, and operates numerous retail stores.\n\nThe company was founded on August 10, 1932 by Ole Kirk Christiansen.[7] The name Lego is derived from the Danish words leg godt, meaning \u0022play well\u0022. In the first half of 2015, The Lego Group became the world\u0027s largest toy company by revenue, with sales amounting to US$2.1 billion, surpassing Mattel, which had US$1.9 billion in sales.[8][9]"
     },
     {
       "Id": 3,
       "Owner": {
-        "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
+        "Id": 3,
+        "UserName": "Bob",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "YO CHECK IT OUT",
+      "Body": "Boring stuff..."
     },
     {
       "Id": 4,
       "Owner": {
-        "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
+        "Id": 4,
+        "UserName": "Jake",
+        "Password": "password"
       },
-      "Title": "string1",
-      "Body": "string1"
+      "Title": "Jacob \u0022Jake\u0022 Jeffrey Peralta",
+      "Body": "As said by Terry Jeffords,\n\n\u0022Jacob Peralta is my best detective. He likes putting away bad guys and he solving puzzles. The only puzzle he hasn\u0027t solved is how to grow up.\u0022\n\nPeralta is a cop that has never been one to follow the rules too closely. Perhaps because he has the best arrest record among his colleagues, he\u0027s been enabled - if not indulged - throughout his entire career. That is, until the precinct gets a new commanding officer, Captain Raymond Holt, who reminds this hotshot cop to respect the badge."
     },
     {
       "Id": 5,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
+        "Id": 5,
+        "UserName": "Amy",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "Things I love",
+      "Body": "Math, numbers and Jake"
     },
     {
       "Id": 6,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
+        "Id": 6,
+        "UserName": "Terry",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "Terrence \u201CTerry\u201D Vincent Jeffords",
+      "Body": "erry had a rough childhood. He was overweight, was bullied, and had a cruel father. He had a joy in his early life, though: the books of D.C. Parlov. He viewed police officers as superheroes, which is why he joined the force, and was saved from bullies by one.\n\nDuring his time as a field officer, his infamous nickname was \u0022The Ebony Falcon\u0022. He has a third daughter called Ava who was born later on Thanksgiving 2015 after Sharon Jeffords goes into labor at the 99th Precinct.\n\nHe played linebacker at Syracuse.[1]\n\nTerry spent a year abroad in Tokyo in his junior year at college, where he briefly dated Chiaki, who broke his heart.\n\nHe doesn\u0027t get along very well with her brother-in-law Zeke, due to how badly Zeke treats him. The only time Zeke showed respect for Terry was out of sympathy when Zeke thought Holt was abusing his authority.\n\nHe had an addiction to food which got real bad, to the point where he broke a restaurant window because they were closed at 6:00. He got over it by re-booting his system (sticking his head in ice water) every time he felt for a food craving.\n\nBefore joining the 99th Precinct, he was a detective at the 65th precinct.[2] There, he was mocked after he exclaimed that a cat was an accomplice to a burglary, and was helping a seemingly paralyzed (he was faking his disability) man, who turned out to be the burglar when Terry and Jake went back to the case twenty years later.\n\nAnd prior to the show\u0027s events, he worked at the 18th precinct with Captain Holt, as a fat version of himself nicknamed as \u0022Terry Titties.\u0022 In 1995, he made Detective and started his first day at the 65th Precinct.[3]"
     },
     {
       "Id": 7,
       "Owner": {
-        "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
+        "Id": 7,
+        "UserName": "Boyle",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "Detective Charles Boyle ",
+      "Body": "Biography\nCharles is close with his father Lynn Boyle, who he would later discover was not his biological father due to his mother\u0027s affair. Lynn knowingly decided to forego determining Charles\u0027 parentage and raise him as his own, since he loved him either way.[2] Charles has at least one sibling, a sister, but she isn\u0027t seen at his father\u0027s wedding.[3] His grandmother bought him and his sister a Princess Tower, which he played with when he was younger.\n\nCharles was married to a woman named Eleanor. At some point, Eleanor asked Charles to get a vasectomy, leading him to freeze some of his sperm in case he later wanted children. A year later, a perp repetitively hit Charles with a baseball bat in the crotch, making him completely sterile. He even says that he \u0022shoots dust\u0022[4]. In 2010, Charles and Eleanor divorced[5]. He hasn\u0027t been in a slump since. [6]After his divorce, Charles lived in Hercules\u0027 basement, his ex-wife\u0027s boyfriend.\n\nWhen a criminal attempted to shoot Diaz, Boyle leapt in front of her and was shot twice in the butt. She believed that he saved her life.[7] For his act of bravery, he was awarded a medal of valor.[8]\n\nTowards the end of season one, Boyle gets engaged to Vivian Ludley, a woman who works with Kevin Cozner, but they never got married because she wanted to move to Canada.\n\nEvery year, Charles dresses up for Halloween, and every year, no-one understands what his costume is \u2014 although they sometimes just pretend not to, to wind him up.\n\nCharles used to be madly in love with Detective Rosa Diaz, with whom he stood no chance at all. Charles has since moved on with Vivian Ludley and is currently in a relationship with Genevieve Mirren-Carter, with whom he has an adoptive son, Nikolaj Boyle."
     },
     {
       "Id": 8,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
+        "Id": 8,
+        "UserName": "Rosa",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "Rosalita \u0022Rosa\u0022 Diaz",
+      "Body": "Biography\nRosa Diaz is a smart, tough and mysterious badass detective. Rosa previously attended a parochial school where she was a model student and had a favorite teacher, Mrs. Weeniercool.\n\nAs a teenager, Rosa studied ballet at the American Ballet Academy. She mentions in The Mattress that her ballet teacher, Ms. Miriam, used to complain to her about her \u0022Posture, technique, and pink hair.\u0022 (The pink hair may be a reference to Stephanie Beatriz\u0027s hair, which sometimes has pink highlights in it.)\n\nEventually, Rosa began to succumb to the mounting pressure to be perfect all the time at ballet school and snapped. She started \u0022beating up the ballerinas\u0022 in ballet school (\u0022Halloween\u0022) and breaking into people\u0027s houses. At some point Rosa was also mixed up with cocaine and guns (\u0022Debbie\u0022), although she may have only mentioned this to keep her cover.\n\nAs a result of her actions, Rosa was consequently expelled from ballet school and sent to juvie. Rosa was also kicked out of her home by her parents and told that she was on her own now. It was from this experience that Rosa learned to face her mistakes and fix her problems on her own.\n\nAt some point, Rosa went to medical school for 3 years. She has also said she attended business school and has a pilot license (\u0022White Whale\u0022).\n\nRosa was eventually a classmate of Jake Peralta who was in the police academy, where the two became best friends.\n\nShe is a recipient of the US Flag Bar, N.Y.P.D. Exceptional Merit, and N.Y.P.D. Firearms Proficiency Bar. In season two, Diaz believed she was pregnant with Marcus\u0027 child, until it is revealed she was not. She and Marcus break up in Into the Woods and reveals to Jake that her current boyfriend is called Tom in The Swedes. It is presumed that she and Tom broke up some time between The Swedes and Cheddar, where she gets together with Adrian Pimento. She and Pimento break it off eventually, and she starts dating an unnamed woman.\n\nHer family comes from Bensonhurst and her father is a teacher. She has two sisters and a niece named Diana.\n\nShe has curly, dark hair and often wears a leather jacket and black jeans or \u0027badass\u0027 clothes. Throughout season seven, her hair is brown with highlights in it. She has dark, revengeful eyes and also has a thin cut in her right eyebrow from when Beatriz tripped on a Lego brick when she was 10. She often has an offensive stance, with her arms crossed and a scowl on her face.\n\nRosa identifies as bisexual and first comes out to Charles Boyle in 99. The series then follows her struggle with coming out to her parents and having them accept her as she is, a story that actress Stephanie Beatriz helped shape.\n\nEven after coming out as bisexual, she still secretive about her love life. This trend is broken however, after her relationship with Jocelyn Pryce is shown to the squad several times. Rosa eventually ends her relationship with Jocelyn, as revealed to captain holt in The Jimmy Jab Games II. She never gives the exact day or reason for the ending of their relationship.\n\nIn the first episode of Season Eight, The Good Ones, Amidst the controversies of police brutality Rosa leaves NYPD. She decides to put her years of experience as a detective to good use though, starting her own business as a private investigator. Despite leaving, Rosa still joins the squad for some events and occasionally assists them when necessary."
     },
     {
       "Id": 9,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
+        "Id": 9,
+        "UserName": "Gina",
+        "Password": "password"
       },
-      "Title": "string",
-      "Body": "string"
+      "Title": "Gina Linetti",
+      "Body": "dot"
     },
     {
       "Id": 10,
       "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
-      },
-      "Title": "xxxxx",
-      "Body": "xxxxxxxx"
-    },
-    {
-      "Id": 11,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
-      },
-      "Title": "string",
-      "Body": "string"
-    },
-    {
-      "Id": 12,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Mateo",
-        "Password": null
-      },
-      "Title": "string",
-      "Body": "string"
-    },
-    {
-      "Id": 13,
-      "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
-      },
-      "Title": "ddddddddddd",
-      "Body": "xxxx"
-    },
-    {
-      "Id": 14,
-      "Owner": {
-        "Id": 5,
-        "UserName": "Mateo4",
+        "Id": 10,
+        "UserName": "CapitanHolt",
         "Password": "password"
       },
-      "Title": "kurwa",
-      "Body": "kurwakurwa"
-    },
-    {
-      "Id": 15,
-      "Owner": {
-        "Id": 3,
-        "UserName": "Mateo3",
-        "Password": ""
-      },
-      "Title": "lets see",
-      "Body": "string"
-    },
-    {
-      "Id": 16,
-      "Owner": {
-        "Id": 4,
-        "UserName": "Mateo5",
-        "Password": "XDXDXD"
-      },
-      "Title": "costy",
-      "Body": "xddddddddddd"
-    },
-    {
-      "Id": 17,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "ddddddd",
-      "Body": "ddddddddddd"
-    },
-    {
-      "Id": 18,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "xd",
-      "Body": "xd"
-    },
-    {
-      "Id": 19,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "aa",
-      "Body": "aa"
-    },
-    {
-      "Id": 20,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "aaaaaaa",
-      "Body": "aaaaaaaa"
-    },
-    {
-      "Id": 21,
-      "Owner": {
-        "Id": 12,
-        "UserName": "Olus",
-        "Password": "bardzotrudne"
-      },
-      "Title": "Mam problem z linuxem",
-      "Body": "on jest do dupy"
-    },
-    {
-      "Id": 22,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "aa",
-      "Body": "aa"
-    },
-    {
-      "Id": 23,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "aaaaa",
-      "Body": "aaaaa"
-    },
-    {
-      "Id": 24,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "a",
-      "Body": "a"
-    },
-    {
-      "Id": 25,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "aa",
-      "Body": "a"
-    },
-    {
-      "Id": 26,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "xd",
-      "Body": "xd"
-    },
-    {
-      "Id": 27,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "d",
-      "Body": "x"
-    },
-    {
-      "Id": 28,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "a",
-      "Body": "a"
-    },
-    {
-      "Id": 29,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "a",
-      "Body": "aa"
-    },
-    {
-      "Id": 30,
-      "Owner": {
-        "Id": 8,
-        "UserName": "Mateo51",
-        "Password": "password"
-      },
-      "Title": "a",
-      "Body": "a"
+      "Title": "Cheddar Holt-Cozner",
+      "Body": "Cheddar Holt-Cozner is the Pembroke Welsh Corgi owned by Raymond Holt and Kevin Cozner. He is well-trained, can do tricks, and apparently likes wedding cake.\nCheddar has a collar that is blue with accentuating diamonds that are orange and grey. He has one dog tag that simply says \u0022Cheddar\u0022, and his favorite toy is an owl named Mr. Hootsworth.\n\nCheddar is taken on walks by both Holt and Kevin, the latter taking him specifically to a bench in a nearby park.\n\nHe walks in lockstep with Holt. He is one of the smartest characters in the show as he won the traditional Halloween special in season 5. Additionally, Cheddar seems to have some degree of power over the squad, as in Season 3, Episode 18 \u0022Cheddar\u0022, Charles refers to him as the alpha dog."
     }
   ]
 }

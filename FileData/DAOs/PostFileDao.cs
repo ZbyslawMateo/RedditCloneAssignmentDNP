@@ -39,17 +39,21 @@ public class PostFileDao : IPostDao
     public Task<IEnumerable<Post>> GetAsync(SearchPostDto searchParameters)
     {
         IEnumerable<Post> result = context.Posts.AsEnumerable();
-
+        
         if (!string.IsNullOrEmpty(searchParameters.AuthorName))
         {
             result = context.Posts.Where(todo =>
-                todo.Owner.UserName.Equals(searchParameters.AuthorName, StringComparison.OrdinalIgnoreCase));
+                todo.Owner.UserName.Contains(searchParameters.AuthorName, StringComparison.OrdinalIgnoreCase));
         }
-        
         if (!string.IsNullOrEmpty(searchParameters.TitleContains))
         {
-            result = result.Where(t =>
-                t.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
+            result = result.Where(post =>
+                post.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
+        }
+        if (!string.IsNullOrEmpty(searchParameters.AuthorName))
+        {
+            result = result.Where(post =>
+                post.Owner.UserName.Contains(searchParameters.AuthorName, StringComparison.OrdinalIgnoreCase));
         }
 
         return Task.FromResult(result);
