@@ -1,0 +1,24 @@
+.info-msg[b-ceegisofnu],
+.success-msg[b-ceegisofnu],
+.warning-msg[b-ceegisofnu],
+.error-msg[b-ceegisofnu] {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+.info-msg[b-ceegisofnu] {
+    color: #059;
+    background-color: #BEF;
+}
+.success-msg[b-ceegisofnu] {
+    color: #270;
+    background-color: #DFF2BF;
+}
+.warning-msg[b-ceegisofnu] {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.error-msg[b-ceegisofnu] {
+    color: #D8000C;
+    background-color: #FFBABA;
+}

@@ -1,0 +1,121 @@
+﻿@page "/"
+@using SharedDomain
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+
+<PageTitle>RedditClone</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        <h1 style="text-align: center">Welcome on our  RedditClone forum!</h1>
+        
+        <div class="createPostCard">
+            <h2>Search by:</h2>
+            <div class="filters-container">
+                <div class="filter">
+                                    <label>Author username:</label>
+                                    <input name="name" type="text" class="feedback-input" placeholder="Type here..." @bind="authorFilter"/>
+                                </div>
+                <div class="filter">
+                    <label>Title contains:</label>
+                    <input name="name" type="text" class="feedback-input" placeholder="Type here..." @bind="titleFilter"/>
+                </div>
+
+            </div>
+            <div class="field">
+                <button @onclick="LoadPosts" class="button-35" role="button">Search</button>
+            </div>
+        </div>
+        
+        
+        
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <div>
+                <span>@msg</span>
+            </div>
+        }
+        
+        @if (posts == null)
+        {
+            <span>Loading..</span>
+        }
+        else if (!posts.Any())
+        {
+            <span>No posts to be found</span>
+        }
+        else
+        {
+            <table class="styled-table">
+                <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>Author</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var post in posts)
+                {
+                    <tr>
+                        <td><h4><a href="" class="underline" @onclick="@(() => navMgr.NavigateTo($"/ViewSinglePost/{post.Id}"))" @onclick:preventDefault>@post.Title</a></h4></td>
+                        <td><h4>@post.Owner.UserName</h4></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            
+        }
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <label style="color: red">@msg</label>
+        }
+
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not logged in.</p>
+        @Redirect()
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+    private IEnumerable<Post>? posts;
+    private string msg = "";
+    
+    
+    private string? titleFilter;
+    private string? authorFilter;
+
+    private async Task Redirect()
+    {
+        navMgr.NavigateTo("/login");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            posts = await postService.GetAsync(null, null);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    private async Task LoadPosts()
+    {
+        try
+        {
+            Console.WriteLine("Blazor" + authorFilter + titleFilter);
+            posts = await postService.GetAsync(authorFilter, titleFilter);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

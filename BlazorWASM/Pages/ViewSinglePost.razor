@@ -1,0 +1,50 @@
+@page "/ViewSinglePost/{id:int}"
+@using SharedDomain
+@using HttpClients.ClientInterfaces
+@using SharedDomain.DTOs
+@inject IPostService postService
+@attribute [Authorize]
+
+<div class="viewPostCard">
+    @if (post == null)
+    {
+        <label>Loading Post data..</label>
+    }
+    else
+    {    
+        <h1>@post.Title</h1>
+
+    <div class="post-content">
+        
+        <div class="post-author">
+            <h4>Author:<br><b>@post.Owner.UserName</b></h4>
+        </div>
+
+        <div class="post-body">
+            <p>@post.Body</p>
+        </div>
+            
+    </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string msg = "";
+    private Post post;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            post = await postService.GetByIdAsync(Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
