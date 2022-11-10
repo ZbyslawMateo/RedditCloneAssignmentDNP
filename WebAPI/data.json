@@ -49,6 +49,11 @@
       "Id": 10,
       "UserName": "CapitanHolt",
       "Password": "password"
+    },
+    {
+      "Id": 11,
+      "UserName": "Olcia",
+      "Password": "bardzotrudna"
     }
   ],
   "Posts": [
@@ -151,6 +156,26 @@
       },
       "Title": "Cheddar Holt-Cozner",
       "Body": "Cheddar Holt-Cozner is the Pembroke Welsh Corgi owned by Raymond Holt and Kevin Cozner. He is well-trained, can do tricks, and apparently likes wedding cake.\nCheddar has a collar that is blue with accentuating diamonds that are orange and grey. He has one dog tag that simply says \u0022Cheddar\u0022, and his favorite toy is an owl named Mr. Hootsworth.\n\nCheddar is taken on walks by both Holt and Kevin, the latter taking him specifically to a bench in a nearby park.\n\nHe walks in lockstep with Holt. He is one of the smartest characters in the show as he won the traditional Halloween special in season 5. Additionally, Cheddar seems to have some degree of power over the squad, as in Season 3, Episode 18 \u0022Cheddar\u0022, Charles refers to him as the alpha dog."
+    },
+    {
+      "Id": 11,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Amy",
+        "Password": "password"
+      },
+      "Title": "Sop",
+      "Body": "help"
+    },
+    {
+      "Id": 12,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Amy",
+        "Password": "password"
+      },
+      "Title": "C#",
+      "Body": "C#"
     }
   ]
 }
