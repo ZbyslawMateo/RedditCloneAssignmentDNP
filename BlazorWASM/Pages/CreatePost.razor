@@ -93,10 +93,12 @@
             
             postTitle = "";
             postDescription = "";
+            
+            /*
             var timer = new Timer(new TimerCallback(_ =>
             {
                 navMgr.NavigateTo("/");
-            }), null, 2000, 2000);
+            }), null, 2000, 2000); */ // Creates small bugs when redirected to home page, can't go down the page
             
         }
         catch (Exception e)

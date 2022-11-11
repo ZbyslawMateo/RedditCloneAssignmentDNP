@@ -54,6 +54,11 @@
       "Id": 11,
       "UserName": "Olcia",
       "Password": "bardzotrudna"
+    },
+    {
+      "Id": 12,
+      "UserName": "newUser",
+      "Password": "PASSWORD"
     }
   ],
   "Posts": [
@@ -176,6 +181,26 @@
       },
       "Title": "C#",
       "Body": "C#"
+    },
+    {
+      "Id": 13,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Bob",
+        "Password": "password"
+      },
+      "Title": "Some title",
+      "Body": "needed"
+    },
+    {
+      "Id": 14,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Bob",
+        "Password": "password"
+      },
+      "Title": "Dummypost",
+      "Body": "Dummypost"
     }
   ]
 }
