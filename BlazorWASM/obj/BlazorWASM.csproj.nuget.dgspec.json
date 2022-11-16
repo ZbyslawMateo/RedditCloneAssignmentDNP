@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj": {}
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj": {
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\IZO21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IZO21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
-                "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
+              "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
               }
             }
           }
@@ -61,17 +61,17 @@
         }
       }
     },
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj": {
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj",
         "projectName": "BlazorWASM",
-        "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj",
-        "packagesPath": "C:\\Users\\IZO21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\BlazorWASM.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\BlazorWASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IZO21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -83,14 +83,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj"
+              "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\Application\\Application.csproj"
               },
-              "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj": {
-                "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj"
+              "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj": {
+                "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj"
               },
-              "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
-                "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
+              "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
               }
             }
           }
@@ -150,17 +150,17 @@
         }
       }
     },
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj": {
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj",
-        "packagesPath": "C:\\Users\\IZO21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IZO21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -172,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
-                "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
+              "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj"
               }
             }
           }
@@ -207,17 +207,17 @@
         }
       }
     },
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
         "projectName": "SharedDomain",
-        "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
-        "packagesPath": "C:\\Users\\IZO21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IZO21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

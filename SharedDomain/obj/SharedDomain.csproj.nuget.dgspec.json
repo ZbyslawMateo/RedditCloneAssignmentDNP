@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {}
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
+    "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
         "projectName": "SharedDomain",
-        "projectPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
-        "packagesPath": "C:\\Users\\IZO21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZO21\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\SharedDomain.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\RiderProjects\\RedditCloneAssignmentDNP\\SharedDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IZO21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

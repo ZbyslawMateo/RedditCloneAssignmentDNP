@@ -10,3 +10,15 @@ C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\refint\SharedDomain.dll
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.pdb
 C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\ref\SharedDomain.dll
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\bin\Debug\net6.0\SharedDomain.deps.json
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\bin\Debug\net6.0\SharedDomain.dll
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\bin\Debug\net6.0\SharedDomain.pdb
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.csproj.AssemblyReference.cache
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.AssemblyInfoInputs.cache
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.AssemblyInfo.cs
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.csproj.CoreCompileInputs.cache
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.dll
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\refint\SharedDomain.dll
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\SharedDomain.pdb
+C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\SharedDomain\obj\Debug\net6.0\ref\SharedDomain.dll
