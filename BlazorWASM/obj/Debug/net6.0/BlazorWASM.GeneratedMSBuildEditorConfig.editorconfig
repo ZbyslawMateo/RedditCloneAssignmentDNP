@@ -11,49 +11,49 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\BlazorWASM\
+build_property.ProjectDir = C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mateu\RiderProjects\RedditCloneAssignmentDNP\BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\IZO21\RiderProjects\RedditCloneAssignmentDNP\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/App.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/Login.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/RegisterUser.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/RegisterUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/UIComponents/LoginButtons.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/UIComponents/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXExvZ2luQnV0dG9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/ViewSinglePost.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/ViewSinglePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NpbmdsZVBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/_Imports.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/CreatePost.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ceegisofnu
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/Index.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ge7fcwz0nr
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Shared/MainLayout.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Shared/NavMenu.razor]
+[C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

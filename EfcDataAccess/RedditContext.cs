@@ -10,7 +10,7 @@ public class RedditContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source = C:/Users/mateu/RiderProjects/RedditCloneAssignmentDNP/EfcDataAccess/Reddit.db");
+        optionsBuilder.UseSqlite("Data Source = C:/Users/IZO21/RiderProjects/RedditCloneAssignmentDNP/EfcDataAccess/Reddit.db");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

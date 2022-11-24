@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Todo" uuid="d5056e3c-7771-4f9d-ad85-98e83196e82f">
+    <data-source source="LOCAL" name="Reddit" uuid="75eaf8e9-6d1c-433e-9052-90a4427f51e7">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
